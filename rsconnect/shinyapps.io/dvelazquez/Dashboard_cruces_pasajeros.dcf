@@ -5,9 +5,9 @@ account: dvelazquez
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2242975
-bundleId: 3167555
+bundleId: 3167902
 url: https://dvelazquez.shinyapps.io/Dashboard_cruces_pasajeros/
-when: 1589916216.17331
+when: 1589922711.58183
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: cleanData.R|db_dashboard.csv|Back/server.R|Back/ui.R|golden copy/server.R|golden copy/ui.R|New folder/server.R|New folder/ui.R|www/cbx.css
+ignoredFiles: cleanData.R|db_dashboard.csv|df_global.csv|README.md|www/cbx.css
