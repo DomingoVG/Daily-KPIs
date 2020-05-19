@@ -1,0 +1,1 @@
+df_global <- read.csv("df_global.csv")
