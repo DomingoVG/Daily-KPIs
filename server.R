@@ -12,6 +12,7 @@
 
 # Load variables to use 
 
+#Prueba de cambio
 caso1 <<- list(a = c("2"))
 caso2 <<- list(a = c("3"))
 
