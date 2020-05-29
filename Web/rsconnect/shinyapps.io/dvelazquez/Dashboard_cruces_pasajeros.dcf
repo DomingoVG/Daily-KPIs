@@ -1,0 +1,12 @@
+name: Dashboard_cruces_pasajeros
+title: Dashboard_cruces_pasajeros
+username:
+account: dvelazquez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2242975
+bundleId: 3196186
+url: https://dvelazquez.shinyapps.io/Dashboard_cruces_pasajeros/
+when: 1590594405.35794
+asMultiple: FALSE
+asStatic: FALSE
