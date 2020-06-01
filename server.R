@@ -534,6 +534,9 @@ shinyServer(function(input, output) {
      fig <- fig %>% layout(showlegend = FALSE,
                             hovermode = "compare") %>%
                                                     config(displayModeBar = TRUE)
+     
+     fig <- fig %>%
+       config(modeBarButtonsToAdd = list(octocat))
       }
   })
   

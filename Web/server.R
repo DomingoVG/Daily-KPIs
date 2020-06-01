@@ -516,7 +516,7 @@ shinyServer(function(input, output) {
      fig <- fig %>% layout(showlegend = FALSE,
                             hovermode = "compare") %>%
                                                     config(displayModeBar = TRUE)
-      }
+    }
   })
   
   ## Cumulative

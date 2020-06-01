@@ -11,7 +11,10 @@
 ## ---------------------------
 ##
 ## load up the packages we will need 
-
+#devtools::install_github('cpsievert/plotly_book') #for octocat image
+library(tidyverse)
+library(DT)
+library(plotly)
 library(shiny)
 library(tidyselect)
 library(plotly)
@@ -25,6 +28,21 @@ library(scales)
 ## source files
 
 source("getData.R")
+data(octocat_svg_path, package = "plotlyBook")
+
+octocat <- list(
+  name = "octocat",
+  icon = list(
+    path = octocat_svg_path,
+    transform = 'matrix(1 0 0 1 -2 -2) scale(0.7)'
+  ),
+  click = htmlwidgets::JS(
+    "function(gd) {
+       var txt = {x: [1], y: [1], text: 'Octocat!', mode: 'text'};
+       Plotly.addTraces(gd, txt);
+    }"
+  )
+)
 
 # Load configurations and variables to use
 
